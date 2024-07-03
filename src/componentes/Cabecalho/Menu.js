@@ -5,9 +5,8 @@ import styled from "styled-components";
 const textoOpcoes = ["Home", "Produto", "Cadastrar Produto"];
 
 const MenuConteiner = styled.ul`
-     width: 40%;
-    display: flex;    
-    color: white;
+    width: 40%;
+    display: flex;
     li{
         list-style: none;
         font-size: 30px;
@@ -19,17 +18,17 @@ function Menu() {
     return (
         <MenuConteiner>
             {
-                textoOpcoes.map( (opcao) => (
+                textoOpcoes.map((opcao) => (
                     <Link
-                        to={`/${opcao.replace(/\s+/g,'').toLowerCase()}`}
+                        to={`/${opcao.replace(/\s+/g, '').toLowerCase()}`}
                         style={{
-                            color:"white",
+                            color: "#000",
                             textDecoration: 'none'
                         }}
                     >
                         <li>{opcao}</li>
                     </Link>
-                )) 
+                ))
             }
         </MenuConteiner>
     );
