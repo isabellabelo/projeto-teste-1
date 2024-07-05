@@ -12,6 +12,7 @@ const MenuConteiner = styled.ul`
         font-size: 30px;
         font-weight: bold;
         margin: 0 15px;
+        color: rgb(58, 41, 30)
     }
 `
 function Menu() {

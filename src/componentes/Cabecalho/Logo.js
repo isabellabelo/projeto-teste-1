@@ -1,5 +1,5 @@
 import React from "react";
-import imgLogo from "../../imagens/logoHorizon.png";
+import imgLogo from "../../imagens/Horizon (1).png";
 import styled from "styled-components";
 
 const LogoContainer = styled.div`
@@ -11,6 +11,7 @@ const LogoContainer = styled.div`
     margin-left: 20px;
     #imgLogo{
       border-radius: 999px;
+      
       height: 180px;
     }
     #textoLogo{
